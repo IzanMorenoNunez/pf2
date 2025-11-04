@@ -2,7 +2,7 @@
 class Persona {
   String nom;
   String cognom;
-  String datNaix;
+  DateTime datNaix;
   String correu;
   String password;
 
@@ -18,7 +18,7 @@ class Persona {
   Persona copyWith({
     String? nom,
     String? cognom,
-    String? datNaix,
+    DateTime? datNaix,
     String? correu,
     String? password,
   }) {
